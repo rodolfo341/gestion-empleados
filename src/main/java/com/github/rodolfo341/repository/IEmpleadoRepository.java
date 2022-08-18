@@ -6,6 +6,4 @@ import org.springframework.stereotype.Repository;
 import com.github.rodolfo341.model.Empleado;
 
 @Repository
-public interface IEmpleadoRepository extends JpaRepository<Empleado, Long> {
-
-}
+public interface IEmpleadoRepository extends JpaRepository<Empleado, Long> { }
