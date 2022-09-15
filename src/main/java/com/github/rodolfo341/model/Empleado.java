@@ -2,6 +2,7 @@ package com.github.rodolfo341.model;
 
 import javax.persistence.*;
 
+
 @Entity
 @Table(name = "empleados")
 public class Empleado {
